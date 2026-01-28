@@ -1,0 +1,95 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    width: 100%; height: 100vh; font-family: 'Inter', sans-serif;
+}
+
+main{
+    width: 100%; height: 100vh; margin: 0 auto; max-width: 1174px;
+    display: flex; gap: 16px; padding-top: 40px; 
+}
+
+aside{
+    display: flex; flex-direction: column; gap: 16px;
+}
+
+.p_header{
+    color: #29aa04; font-size: 24px; font-weight: 600;
+}
+
+h1{
+    font-size: 36px; font-weight: 600;
+}
+
+.content_header h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 20px; color: rgba(0, 0, 0, 0.5); font-weight: 600;
+}
+
+.shoes_info p{
+    font-size: 16px; font-weight: 600; color: rgba(0, 0, 0, 0.5);
+}
+
+.shoes_images{
+    padding-top: 12px;
+}
+
+.size_info{
+    padding-top: 42px;
+}
+
+.size_text{
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: space-between;
+}
+
+.size_text h4{
+    color: rgba(0, 0, 0, 0.5); font-size: 18px;
+}
+
+.size_opt{
+    display: flex; flex-direction: row; justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.size_opts{
+    padding-top: 22px;
+}
+
+.size{
+    font-weight: bold; text-align: center; width: 200px; height: 50px;
+    border: 1px rgba(0, 0, 0) solid; display: flex; align-items: center;
+    justify-content: center; font-size: 22px; cursor: pointer;
+}
+
+.buttons{
+    display: flex; flex-direction: column; gap: 12px; padding-top: 25px;
+}
+
+.btn1{
+    padding: 20px; border-radius: 50px; background:black; color: #fff;
+    outline: none; border: none; font-size: 20px; font-weight: 600; cursor: pointer;
+}
+
+.btn1:hover{
+    opacity: 0.8;
+}
+
+.btn2{
+    padding: 20px; border-radius: 50px; background:#fff; color: #000;
+    outline: none; border: 1px solid rgba(0, 0, 0);font-size: 20px; font-weight: 600;
+    cursor: pointer;
+}
+
+.side_img{
+    cursor: pointer;
+}
+
+.center_img{
+    cursor: pointer;
+}
